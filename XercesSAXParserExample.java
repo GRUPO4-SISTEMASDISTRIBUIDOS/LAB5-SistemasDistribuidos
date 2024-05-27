@@ -10,7 +10,6 @@ public class XercesSAXParserExample {
     try {
       // Crear un objeto File que representa el archivo XML de entrada
       File archivoEntrada = new File("Ej02.xml");
-
       // Crear una fábrica de analizadores SAX
       SAXParserFactory fabricaSAXParser = SAXParserFactory.newInstance();
 
